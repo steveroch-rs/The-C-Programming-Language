@@ -17,7 +17,7 @@ int main() {
 		}
 	}
 	
-	printf("Blanks: .0f\nTabs: .0f\nNewlines: \n", blanks, tabs, newlines);
+	printf("Blanks: %.0f\nTabs: %.0f\nNewlines: %.0f\n", blanks, tabs, newlines);
 
 	return 0;
 }
