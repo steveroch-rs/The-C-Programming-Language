@@ -8,7 +8,11 @@
             "name": "gcc build and debug active file",
             "type": "cppdbg",
             "request": "launch",
+<<<<<<< HEAD
             "program": "${fileDirname}/x86_64/${fileBasenameNoExtension}",
+=======
+            "program": "${fileDirname}/x86/${fileBasenameNoExtension}",
+>>>>>>> 06df59d217bf9ece18e05eb5bb694d6380cf0b67
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
