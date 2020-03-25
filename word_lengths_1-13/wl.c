@@ -18,20 +18,16 @@ int main(void) {
 
     printf("Word lengths from 1 to 10 have occured this much: \n");
 
-    for (int i = 0; i < MAX_LENGTH; i++)
-    {
-        if (i < 9) {
-            printf("0");
-        }
+    for (int i = 0; i < MAX_LENGTH; i++) {
+        printf("%2.0d: ", i + 1);
         
-        printf("%d: ", i + 1);
-        while (lengths[i] != 0)
-        {
+        while (lengths[i] != 0) {
             printf("|");
             lengths[i]--;
         }
+
         printf("\n");
     }
-    
+
     return 0;
 }
